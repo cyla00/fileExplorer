@@ -9,8 +9,8 @@ body{
   background-color: #004d4d;
   padding: 4%;
 }
-.main button{
-  margin-top: 2%;
+.filebtn{
+  margin-top: 2px;
   width: 100%;
   font-family: Oneday;
   font-size: 2rem;
@@ -19,5 +19,13 @@ body{
   color: #333333;
   background-color: #4dffa6;
   outline: 0;
-  word-wrap: none;
+  display: none;
+  display: flex;
+  flex-direction: column;
+}
+#link{
+  text-decoration: none;
+  font-family: Oneday;
+  font-size: 1rem;
+  color: black;
 }
