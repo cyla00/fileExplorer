@@ -8,15 +8,14 @@
   <body>
     <div class="main">
       <?php
-      $dir = "C:\wamp64\www\innerwww\FileExplorer";
-      if (is_dir($dir)){
-        if ($dh = opendir($dir)){
-          while (($file = readdir($dh)) !== false){
-            echo $file . "<br>";
-          }
-          closedir($dh);
+        $dir = getcwd();
+        $content = scandir($dir);
+        foreach($content as $file){
+          $size = filesize($file);
+          $type = filetype($file);
+          $owner = fileowner($file);
+          echo "<br>".$file." ".$size." bytes, ".$type.", by ".$owner;
         }
-      }
        ?>
     </div>
   </body>
