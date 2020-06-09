@@ -1,25 +1,13 @@
-@font-face{
-  font-family: Oneday;
-  src: url("./fonts/onedayttf");
+.filegrahp{
+  width: 30%;
+  text-align: left;
+  border: none;
+  outline: none;
 }
-body{
-  background-color: #008080;
+.filegrahp:hover{
+  background-color: grey;
 }
-body div{
-  background-color: #004d4d;
-  padding: 4%;
-}
-.filebtn{
-  margin-top: 2px;
-  width: 100%;
-  font-family: Oneday;
-  font-size: 2rem;
-  border-radius: 10px;
-  border-style: none;
-  color: #333333;
-  background-color: #4dffa6;
-  outline: 0;
-  display: none;
-  display: flex;
-  flex-direction: column;
+.creazione{
+  text-align: center;
+  align-items: center;
 }
