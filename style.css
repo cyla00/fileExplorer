@@ -1,13 +1,18 @@
-.filegrahp{
-  width: 30%;
-  text-align: left;
-  border: none;
-  outline: none;
+.dirbtn{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000000;
 }
-.filegrahp:hover{
-  background-color: grey;
+.filecontainer{
+  width: 30%;
+  border-color: #00997a;
+  border-bottom: solid;
+  padding: 1%;
+}
+.imgfile{
+  margin-right: 1%;
 }
 .creazione{
+  width: 100%;
   text-align: center;
-  align-items: center;
 }

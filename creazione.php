@@ -1,7 +1,6 @@
-
 <div class="">
   <div class="creazione">
-    <form class="creazioneForm" action="prima.php" method="post">
+    <form class="creazioneForm" action="<?php ?>" method="post">
         <label for="Fname"><img src="img/document.png" alt="fileicon" width='17' height='17'></label>
         <input type="text" name="filename" value="">
         <label for=""><img src="img/folder.png" alt="foldericon" width='17' height='17'></label>
